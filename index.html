@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!-- این خط مشخص می‌کنه که فایل ما یک سند HTML5 هست -->
+<html lang="fa" dir="rtl">
+<!-- lang="fa" یعنی زبان صفحه فارسیه و dir="rtl" یعنی متن از راست به چپ نمایش داده بشه -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- این خط باعث میشه صفحه از همه زبان‌ها مثل فارسی پشتیبانی کنه -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- این خط نمایش سایت رو روی موبایل و تبلت هماهنگ می‌کنه -->
+    <title>اولین صفحه من</title>
+    <!-- عنوانی که در تب مرورگر نشون داده میشه -->
+
+    <style>
+        /* 🎨 استایل کلی صفحه */
+        body {
+            font-family: "Tahoma", Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            line-height: 1.8;
+        }
+
+        header {
+            background: linear-gradient(to right, #4a90e2, #007aff);
+            color: white;
+            padding: 20px;
+            border-bottom: 4px solid #003f7f;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        h2 {
+            color: #003366;
+            margin-top: 30px;
+        }
+
+        .intro {
+            color: #6a0dad;
+            font-size: 18px;
+            margin: 15px 0;
+        }
+
+        ul,
+        ol {
+            text-align: right;
+            display: inline-block;
+            margin: 10px auto;
+        }
+
+        a {
+            display: inline-block;
+            margin: 15px 0;
+            text-decoration: none;
+            color: white;
+            background: #28a745;
+            padding: 8px 15px;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+
+        a:hover {
+            background: #218838;
+        }
+
+        img {
+            margin: 15px 0;
+            border-radius: 10px;
+            border: 2px solid #ccc;
+        }
+
+        form {
+            background: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            display: inline-block;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: right;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input,
+        button {
+            margin-top: 8px;
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            width: 100%;
+            max-width: 250px;
+        }
+
+        button {
+            background: #007aff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #005bb5;
+        }
+
+        footer {
+            background: #f1f1f1;
+            padding: 15px;
+            font-size: 14px;
+            color: #555;
+            border-top: 2px solid #ccc;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- بخش بالای صفحه -->
+    <header>
+        <h1>به اولین صفحه وب من خوش آمدی�</h1>
+    </header>
+
+    <!-- محتوای اصلی -->
+    <main>
+        <p class="intro">سلام! اینجا یک <strong>نمونه صفحه وب</strong> ساده است که برای آموزش HTML و CSS ساخته شده.</p>
+        <p>همچنین می‌توانیم متن را به صورت <em>ایتالیک (کج)</em> هم نمایش دهیم.</p>
+
+        <h2>علایق من:</h2>
+        <ul>
+            <li>کتاب خواندن �</li>
+            <li>فیلم دیدن �</li>
+            <li>یاد گرفتن HTML و CSS �</li>
+        </ul>
+
+        <h2>چیزهایی که باید یاد بگیری:</h2>
+        <ol>
+            <li>ساختار کلی HTML</li>
+            <li>اضافه کردن استایل با CSS</li>
+            <li>افزودن تعامل با جاوااسکریپت</li>
+        </ol>
+
+        <a href="https://www.google.com" target="_blank">برو به گوگل 🔎</a>
+
+        <br>
+        <img src="https://via.placeholder.com/200" alt="یک تصویر نمونه">
+
+        <h2>فرم ساده:</h2>
+        <form>
+            <label for="name">نام شما:</label>
+            <input type="text" id="name" name="name" placeholder="مثلاً ریحانه">
+
+            <label for="color">رنگ مورد علاقه:</label>
+            <input type="color" id="color" name="color">
+
+            <button type="submit">ارسال فرم</button>
+        </form>
+    </main>
+
+    <!-- بخش پایانی صفحه -->
+    <footer>
+        <p>🌹 ساخته شده با عشق توسط ریحانه - ۱۴۰۴ 🌹</p>
+    </footer>
+
+</body>
+</html>
