@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  test:
+  firsttime:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -19,3 +19,4 @@ jobs:
         run: |
           echo "hi my name is  hirash"
           python hello.py
+          python -m unittest test_hello.py
