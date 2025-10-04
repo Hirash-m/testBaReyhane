@@ -1,7 +1,7 @@
 import unittest
 
 def say_hello():
-    return "Hello, CI/CD!"
+    return "Hello, Ckjhkjh"
 
 class TestHello(unittest.TestCase):
     def test_say_hello(self):
