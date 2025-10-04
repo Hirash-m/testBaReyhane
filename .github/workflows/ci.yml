@@ -17,5 +17,5 @@ jobs:
           python-version: '3.9'
       - name: Run Python script
         run: |
-          python --version
+          echo "hi my name is  hirash"
           python hello.py
