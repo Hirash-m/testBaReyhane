@@ -1,11 +1,14 @@
 import unittest
+from app import app
 
-def say_hello():
-    return "Hello, Ckjhkjh"
+class TestFlaskApp(unittest.TestCase):
+    def setUp(self):
+        self.app = app.test_client()
 
-class TestHello(unittest.TestCase):
-    def test_say_hello(self):
-        self.assertEqual(say_hello(), "Hello, CI/CD!")
+    def test_hello(self):
+        response = self.app.get('/')
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.data.decode('utf-8'), "Hello, CI/CD with Flask!")
 
 if __name__ == '__main__':
     unittest.main()
