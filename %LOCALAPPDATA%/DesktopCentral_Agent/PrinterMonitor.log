@@ -1,0 +1,89 @@
+﻿Date	Time	Severity	PID	TID	Function	Message
+04-10-2025	11:07:27.998	 INFO	 14428	 13164	DllMain	"DLL_PROCESS_ATTACH Tue Dec 17 02:00:58 2024 11.3.2428.28"
+04-10-2025	11:07:28.001	 INFO	 14428	 13164	DllMain	"PROCESS ATTACHED"
+04-10-2025	11:07:28.002	 INFO	 14428	 53152	LateInitialization	"Intialization..."
+04-10-2025	11:07:28.002	 INFO	 14428	 53152	LoadDisplayDevicesName	"DisplayDevices : "
+04-10-2025	11:07:28.003	 INFO	 14428	 53152	LoadDisplayDevicesName	"\\.\DISPLAY1"
+04-10-2025	11:07:28.004	 INFO	 14428	 53152	LoadDisplayDevicesName	"\\.\DISPLAY2"
+04-10-2025	11:07:28.005	 INFO	 14428	 53152	LoadDisplayDevicesName	"\\.\DISPLAY3"
+04-10-2025	11:07:28.007	ERROR	 14428	 53152	LateInitialization	"std::exception caught = GetFileVersionInfoSizeW failed with 1813
+"
+04-10-2025	11:07:28.007	 INFO	 14428	 53152	LateInitialization	"Exe = C:\portapps\Git.for.Windows.2.47.0.x64.Portable\PortableGit\usr\bin\sh.exe
+ProductName = 
+FileDescription = 
+ShadowFolder = %LOCALAPPDATA%\EndpointDLP\print-shadow
+ParsingMode = Hybrid
+DeletePrinterShadowFiles = 1
+PrinterUseDisplayDevicesList = 0
+EnablePrinterEscapeProcessing = 1
+EnableWatermarkForAll = 0
+MaxPrintPages = 4294967295
+GdiPlusToken = 270782625
+ExcludedEscapes = 4117, 37, 4118, 4115, 4121, "
+04-10-2025	11:07:28.007	 INFO	 14428	 53152	LateInitialization	"Intialization finished"
+04-10-2025	11:07:29.095	 INFO	 36300	  3060	DllMain	"DLL_PROCESS_ATTACH Tue Dec 17 02:00:58 2024 11.3.2428.28"
+04-10-2025	11:07:29.102	 INFO	 36300	  3060	DllMain	"PROCESS ATTACHED"
+04-10-2025	11:07:29.104	 INFO	 36300	 41012	LateInitialization	"Intialization..."
+04-10-2025	11:07:29.109	 INFO	 36300	 41012	LoadDisplayDevicesName	"DisplayDevices : "
+04-10-2025	11:07:29.115	 INFO	 36300	 41012	LoadDisplayDevicesName	"\\.\DISPLAY1"
+04-10-2025	11:07:29.115	 INFO	 36300	 41012	LoadDisplayDevicesName	"\\.\DISPLAY2"
+04-10-2025	11:07:29.115	 INFO	 36300	 41012	LoadDisplayDevicesName	"\\.\DISPLAY3"
+04-10-2025	11:07:29.117	ERROR	 36300	 41012	LateInitialization	"std::exception caught = GetFileVersionInfoSizeW failed with 1813
+"
+04-10-2025	11:07:29.118	 INFO	 36300	 41012	LateInitialization	"Exe = C:\portapps\Git.for.Windows.2.47.0.x64.Portable\PortableGit\usr\bin\sh.exe
+ProductName = 
+FileDescription = 
+ShadowFolder = %LOCALAPPDATA%\EndpointDLP\print-shadow
+ParsingMode = Hybrid
+DeletePrinterShadowFiles = 1
+PrinterUseDisplayDevicesList = 0
+EnablePrinterEscapeProcessing = 1
+EnableWatermarkForAll = 0
+MaxPrintPages = 4294967295
+GdiPlusToken = 270783734
+ExcludedEscapes = 4117, 37, 4118, 4115, 4121, "
+04-10-2025	11:07:29.119	 INFO	 36300	 41012	LateInitialization	"Intialization finished"
+04-10-2025	11:08:57.610	 INFO	  4196	 17280	DllMain	"DLL_PROCESS_ATTACH Tue Dec 17 02:00:58 2024 11.3.2428.28"
+04-10-2025	11:08:57.623	 INFO	  4196	 17280	DllMain	"PROCESS ATTACHED"
+04-10-2025	11:08:57.624	 INFO	  4196	 68164	LateInitialization	"Intialization..."
+04-10-2025	11:08:57.630	 INFO	  4196	 68164	LoadDisplayDevicesName	"DisplayDevices : "
+04-10-2025	11:08:57.630	 INFO	  4196	 68164	LoadDisplayDevicesName	"\\.\DISPLAY1"
+04-10-2025	11:08:57.631	 INFO	  4196	 68164	LoadDisplayDevicesName	"\\.\DISPLAY2"
+04-10-2025	11:08:57.631	 INFO	  4196	 68164	LoadDisplayDevicesName	"\\.\DISPLAY3"
+04-10-2025	11:08:57.633	ERROR	  4196	 68164	LateInitialization	"std::exception caught = GetFileVersionInfoSizeW failed with 1813
+"
+04-10-2025	11:08:57.633	 INFO	  4196	 68164	LateInitialization	"Exe = C:\portapps\Git.for.Windows.2.47.0.x64.Portable\PortableGit\usr\bin\sh.exe
+ProductName = 
+FileDescription = 
+ShadowFolder = %LOCALAPPDATA%\EndpointDLP\print-shadow
+ParsingMode = Hybrid
+DeletePrinterShadowFiles = 1
+PrinterUseDisplayDevicesList = 0
+EnablePrinterEscapeProcessing = 1
+EnableWatermarkForAll = 0
+MaxPrintPages = 4294967295
+GdiPlusToken = 270872250
+ExcludedEscapes = 4117, 37, 4118, 4115, 4121, "
+04-10-2025	11:08:57.634	 INFO	  4196	 68164	LateInitialization	"Intialization finished"
+04-10-2025	11:08:58.713	 INFO	 42844	 13236	DllMain	"DLL_PROCESS_ATTACH Tue Dec 17 02:00:58 2024 11.3.2428.28"
+04-10-2025	11:08:58.728	 INFO	 42844	 13236	DllMain	"PROCESS ATTACHED"
+04-10-2025	11:08:58.728	 INFO	 42844	 12440	LateInitialization	"Intialization..."
+04-10-2025	11:08:58.734	 INFO	 42844	 12440	LoadDisplayDevicesName	"DisplayDevices : "
+04-10-2025	11:08:58.734	 INFO	 42844	 12440	LoadDisplayDevicesName	"\\.\DISPLAY1"
+04-10-2025	11:08:58.735	 INFO	 42844	 12440	LoadDisplayDevicesName	"\\.\DISPLAY2"
+04-10-2025	11:08:58.735	 INFO	 42844	 12440	LoadDisplayDevicesName	"\\.\DISPLAY3"
+04-10-2025	11:08:58.737	ERROR	 42844	 12440	LateInitialization	"std::exception caught = GetFileVersionInfoSizeW failed with 1813
+"
+04-10-2025	11:08:58.738	 INFO	 42844	 12440	LateInitialization	"Exe = C:\portapps\Git.for.Windows.2.47.0.x64.Portable\PortableGit\usr\bin\sh.exe
+ProductName = 
+FileDescription = 
+ShadowFolder = %LOCALAPPDATA%\EndpointDLP\print-shadow
+ParsingMode = Hybrid
+DeletePrinterShadowFiles = 1
+PrinterUseDisplayDevicesList = 0
+EnablePrinterEscapeProcessing = 1
+EnableWatermarkForAll = 0
+MaxPrintPages = 4294967295
+GdiPlusToken = 270873359
+ExcludedEscapes = 4117, 37, 4118, 4115, 4121, "
+04-10-2025	11:08:58.738	 INFO	 42844	 12440	LateInitialization	"Intialization finished"
